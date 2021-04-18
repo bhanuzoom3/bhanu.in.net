@@ -1,0 +1,20 @@
+{
+  "title": "Bhanu's Blog",
+  "author": "Bhanu",
+  "aboutAuthor": "Daytime Drupal Developer, Linux User by Night.",
+  "headerTitle": "Bhanu's Blog",
+  "description": "Bhanu's personal blog created with Next.js and Tailwind.css",
+  "language": "en-us",
+  "siteUrl": "https://www.bhanu.in.net",
+  "siteRepo": "https://github.com/bhanuzoom3/bhanu.in.net",
+  "image": "/static/images/avatar.png",
+  "socialBanner": "/static/images/twitter-card.png",
+  "email": "address@yoursite.com",
+  "github": "https://github.com",
+  "twitter": "https://twitter.com",
+  "facebook": "https://facebook.com",
+  "youtube": "https://youtube.com",
+  "linkedin": "https://www.linkedin.com",
+  "drupal": "https://www.drupal.org",
+  "locale": "en-US"
+}
