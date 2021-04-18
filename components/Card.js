@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from '@/components/Link'
 
 const Card = ({ title, description, imgSrc, href }) => (
@@ -5,11 +6,22 @@ const Card = ({ title, description, imgSrc, href }) => (
     <div className="h-full border-2 border-gray-200 border-opacity-60 dark:border-gray-700 rounded-md overflow-hidden">
       {href ? (
         <Link href={href} aria-label={`Link to ${title}`}>
-          <img src={imgSrc} alt={title} width="544" height="306" className="lg:h-48 md:h-36 object-cover object-center"></img>
-
+          <Image
+            alt={title}
+            src={imgSrc}
+            className="lg:h-48 md:h-36 object-cover object-center"
+            width={544}
+            height={306}
+          />
         </Link>
       ) : (
-        <img src={imgSrc} alt={title} width="544" height="306" className="lg:h-48 md:h-36 object-cover object-center"></img>
+        <Image
+          alt={title}
+          src={imgSrc}
+          className="lg:h-48 md:h-36 object-cover object-center"
+          width={544}
+          height={306}
+        />
       )}
       <div className="p-6">
         <h2 className="text-2xl font-bold leading-8 tracking-tight mb-3">
